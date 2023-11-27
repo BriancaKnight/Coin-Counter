@@ -22,4 +22,8 @@ describe('CoinCounter', () => {
   test('should create a nickle prototype to return how many nickles in the amount', () => {
     expect(newChange.nickle()).toEqual(20)
   });
-})
+
+  test('should create a penny prototype to return how many pennies in the amount', () => {
+    expect(newChange.penny()).toEqual(100)
+  });
+})     
