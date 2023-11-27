@@ -7,7 +7,7 @@ describe('CoinCounter', () => {
     newChange = new CoinCounter(1)
   });
 
-  test('should create object with an dollar ammount', () => {
-    expect(newChange.ammount).toEqual(1)
-  })
+  test('should create object with an dollar amount', () => {
+    expect(newChange.amount).toEqual(1)
+  });
 })
