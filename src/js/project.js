@@ -16,6 +16,6 @@ export class CoinCounter {
     }
 
     penny() {
-        
+        return this.amount / .01;
     }
 }
