@@ -12,7 +12,6 @@ export class CoinCounter {
     }
 
     nickle() {
-      
+      return Math.floor(this.amount / .05);
     }
-
 }
