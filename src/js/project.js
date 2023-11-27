@@ -11,4 +11,8 @@ export class CoinCounter {
         return Math.floor(this.amount / .10);
     }
 
+    nickle() {
+      
+    }
+
 }

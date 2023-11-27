@@ -18,4 +18,8 @@ describe('CoinCounter', () => {
   test('should create a dime prototype to return how many dimes in the amount', () => {
     expect(newChange.dime()).toEqual(10)
   });
+
+  test('should create a nickle prototype to return how many nickles in the amount', () => {
+    expect(newChange.nickle()).toEqual(20)
+  });
 })
