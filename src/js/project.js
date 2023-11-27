@@ -4,7 +4,7 @@ export class CoinCounter {
     }
 
     quarter() {
-      
+      return Math.floor(this.amount / .25);
     }
 
 }
