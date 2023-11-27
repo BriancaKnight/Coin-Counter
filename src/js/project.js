@@ -7,4 +7,8 @@ export class CoinCounter {
       return Math.floor(this.amount / .25);
     }
 
+    dime() {
+        return Math.floor(this.amount / .10);
+    }
+
 }
